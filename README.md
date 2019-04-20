@@ -36,7 +36,6 @@ O aluno poderá fazer algumas tarefas opcionais que o ajudarão na nota final.
 | 1.0 | OpenCV-Face-Recognition |
 | 1.0 | Python com OPENCV - Pode ser com várias aplicabilidade |
 | 1.0 | WebGL - Conceitos e prática |
-
 |||
 | 0.5 | QT Creator - Conceitos |
 | 0.5 | QT Creator - prática da equação da reta, DDA, Ponto Méido |
