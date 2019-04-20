@@ -35,9 +35,18 @@ O aluno poderá fazer algumas tarefas opcionais que o ajudarão na nota final.
 | 1.0 | OpenVino - Visão computacional da Intel|
 | 1.0 | OpenCV-Face-Recognition |
 | 1.0 | Python com OPENCV - Pode ser com várias aplicabilidade |
+| 1.0 | WebGL - Conceitos e prática |
+
 |||
 | 0.5 | QT Creator - Conceitos |
 | 0.5 | QT Creator - prática da equação da reta, DDA, Ponto Méido |
+| 0.5 | GeoGebbra - Conceitos Báiscos |
+| 0.5 | Primitivas geométricas do OpenGL - Exemplos |
+| 0.5 | CANVAS Conceitos - Exemplos |
+| 0.5 | Octave - Conceitos Báiscos |
+| 0.5 | Matlab - Conceitos Báiscos |
+| 0.5 | Implemnetar: http://www.williammalone.com/articles/create-html5-canvas-javascript-game-character/1/ |
+
 
 
 #### OBSERVAÇÃO
