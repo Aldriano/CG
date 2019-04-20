@@ -1,4 +1,4 @@
-# Sistema Distribuído
+# Computação Gráfica
 
 Este é o Git contêm informações básicas sobre a disciplina.
 
