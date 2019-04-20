@@ -33,9 +33,12 @@ O aluno poderá fazer algumas tarefas opcionais que o ajudarão na nota final.
 | --- | --- |
 | 1.0 | RAISR Google - Amplia imagens de baixa resolução |
 | 1.0 | OpenVino - Visão computacional da Intel|
+| 1.0 | Azure - Visão computacional da Microsoft |
 | 1.0 | OpenCV-Face-Recognition |
 | 1.0 | Python com OPENCV - Pode ser com várias aplicabilidade |
 | 1.0 | WebGL - Conceitos e prática |
+| 1.0 | Converter PDF - TesseractOCR usando PHP |
+| 1.0 | Linguagem R - OCR text extraction |
 |||
 | 0.5 | QT Creator - Conceitos |
 | 0.5 | QT Creator - prática da equação da reta, DDA, Ponto Méido |
@@ -45,7 +48,8 @@ O aluno poderá fazer algumas tarefas opcionais que o ajudarão na nota final.
 | 0.5 | Octave - Conceitos Báiscos |
 | 0.5 | Matlab - Conceitos Báiscos |
 | 0.5 | Implemnetar: http://www.williammalone.com/articles/create-html5-canvas-javascript-game-character/1/ |
-
+| 0.5 | Implemnetar:http://appinventor.mit.edu/explore/ai2/space-invaders.html |
+| 0.5 | Linguagem R - Gráficos Animados |
 
 
 #### OBSERVAÇÃO
