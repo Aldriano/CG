@@ -3,6 +3,7 @@ from pygame.locals import *
 import sys
 #from  class_bird import Bird
 
+import time
 
 class Variavel():
     SCREEN_WIDTH  = 400
@@ -15,6 +16,7 @@ class Variavel():
     bird          = None
     GROUND_GROUP  = None
     ground        = None
+    GRAVITY       = 1
     
 class Bird(pygame.sprite.Sprite):
     def __init__(self):
@@ -22,16 +24,23 @@ class Bird(pygame.sprite.Sprite):
         super().__init__()
         self.image = pygame.image.load('img/passaro.png')
         self.image = pygame.transform.scale( self.image,[32,32])
+
+        self.speed = 10
         
         self.rect    = self.image.get_rect()
         self.rect[0] = Variavel.SCREEN_WIDTH /2
-        self.rect[1] = Variavel.SCREEN_HEIGHT /2        
+        self.rect[1] = Variavel.SCREEN_HEIGHT /2
+
         
     def update(self):
-        self.rect[1] +=1
+        self.speed += Variavel.GRAVITY
+        self.rect[1] += self.speed   #coordenada Y - linha
 
         if self.rect[1] > Variavel.SCREEN_HEIGHT:
             self.rect[1] =  Variavel.SCREEN_HEIGHT /2
+
+
+            
             
 class Ground(pygame.sprite.Sprite):
     def __init__(self):
@@ -62,7 +71,7 @@ def setup():
     
     #Pássaro
     Variavel.BIRD_GROUP = pygame.sprite.Group()
-    Variavel.bird       = Bird()
+    Variavel.bird       = Bird() # instanciando o classe
     Variavel.BIRD_GROUP.add(Variavel.bird)
     
     ##Ground
@@ -76,6 +85,11 @@ def game_loop():
         for evento in pygame.event.get():
             if evento.type == pygame.QUIT:
                 quit()
+
+            if evento.type == KEYDOWN:
+                if evento.key == K_SPACE:
+                    Variavel.bird.speed = -10
+                
    
         Variavel.JANELA.blit(Variavel.BACKGROUND,(0,0))
         
@@ -90,9 +104,11 @@ def game_loop():
         
         
         pygame.display.update()
+        clock.tick(60)
+
 
         
-
+clock = pygame.time.Clock()
 if __name__ == '__main__':
     setup()
     game_loop()
